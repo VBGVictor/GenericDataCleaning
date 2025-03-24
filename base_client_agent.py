@@ -51,7 +51,7 @@ def read_and_clean_csv(filepath):
 def filepath_target():
     root = tk.Tk()
     root.withdraw()
-    initialdir = "C:/Users/Victor Goveia/Downloads/"
+    initialdir = "C:/Users/Victor Goveia/Downloads/"  #coloque o caminho do seu arquivo para ficar de mais facil acesso
     filepath = filedialog.askopenfilename(
         title="Selecione um arquivo CSV",
         filetypes=[("CSV files", "*.csv")],
