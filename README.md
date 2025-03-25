@@ -37,17 +37,23 @@ O objetivo principal desta aplicação é fornecer uma ferramenta que limpa e or
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/simulador-veiculos-renovaveis.git
-   cd 
+   git clone https://github.com/seu_usuario/GenericDataCleaning.git
+   cd GenericDataCleaning
 
-2. **Instale as dependêcias:**
+2. **Crie seu ambiente virtural:**
+
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+
+3. **Instale as dependêcias:**
 
    ```bash
    pip install -r requirements.txt
 
-3. **Faça um primeiro teste e veja as colunas e informações necessárias que são especificas dos dados que for utilizado no programa principal.**
+4. **Faça um primeiro teste e veja as colunas e informações necessárias que são especificas dos dados que for utilizado no programa principal.**
 
-4. **Por fim, realize as alterações necessárias utilizando como base as bibliotecas da API**
+5. **Por fim, realize as alterações necessárias utilizando como base as bibliotecas da API**
 
 ### Contribuições
 
